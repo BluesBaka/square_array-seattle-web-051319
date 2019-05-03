@@ -6,5 +6,5 @@ end
 
 def collected_square_array(array)
     array.collect{|x| array.push x*x}
-   puts array
+   
 end
