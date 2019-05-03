@@ -5,6 +5,6 @@ def square_array(array)
 end
 
 def collected_square_array(array)
-   puts array.collect{|x| x*x}
+    array.collect{|x| x*x}
    puts array
 end
