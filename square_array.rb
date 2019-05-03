@@ -1,6 +1,6 @@
 def square_array(array)
-   puts array.each{|x| x**x}
-
+   new_array = array.each{|x| x**x}
+    new_array
 end
 
 def collected_square_array(array)
